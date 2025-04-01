@@ -17,6 +17,25 @@ define('ADMIN_PASSWORD', 'admin123');
 define('SITE_NAME', 'Satta King');
 define('SITE_URL', 'http://localhost:8000');
 
+// Games configuration
+define('GAMES', json_encode([
+    'DESAWAR' => ['time' => '05:00'],
+    'FARIDABAD' => ['time' => '18:00'],
+    'GAZIYABAD' => ['time' => '21:00'],
+    'GALI' => ['time' => '23:00'],
+    'DELHI GOLD' => ['time' => '16:00'],
+    'DELHI BAZAR' => ['time' => '15:00'],
+    'SHRI GANESH' => ['time' => '16:30'],
+    'HINDUSTAN' => ['time' => '14:00'],
+    'MUMBAI BAZAR' => ['time' => '13:00'],
+    'RAJASTHAN DAY' => ['time' => '17:00'],
+    'SUPREME DAY' => ['time' => '14:30'],
+    'DELHI NOON' => ['time' => '12:00'],
+    'SHRI LAXMI' => ['time' => '19:00'],
+    'SUPREME NIGHT' => ['time' => '20:30'],
+    'DELHI NIGHT' => ['time' => '22:00']
+]));
+
 // Time settings
 date_default_timezone_set('Asia/Kolkata');
 
